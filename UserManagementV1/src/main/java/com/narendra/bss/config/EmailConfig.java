@@ -8,6 +8,11 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+/**
+ * Email configuration file
+ * @author korra
+ *
+ */
 @Configuration
 public class EmailConfig 
 {
