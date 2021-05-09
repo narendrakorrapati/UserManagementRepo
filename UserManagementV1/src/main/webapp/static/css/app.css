@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+body {
+	
+	/* font-size: 0.89rem; */
+}
+
+label,.small-font {
+	font-size: 0.89rem;
+}
+
+.custom-form-container, form {
+	  padding: 20px;
+	  border: 1px solid #ddd;
+	  /*background-color: #ecf0f1;*/
+	  /* background-color: #efefef; */
+	  
+	  border-radius: 10px;
+	  box-shadow: 5px 5px #bdc3c7;
+	  
+}
+
+.custom-model-header {
+	border-bottom: 1px solid #e9ecef;
+}
+
+.full-footer {
+	background-color: #dcdde1;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.bottom-footer {
+	text-align: center;
+}
+
+.mandatory-field {
+	color: red;
+}

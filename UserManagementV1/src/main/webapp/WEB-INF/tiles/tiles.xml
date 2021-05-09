@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>  
+    
+    <definition name="base.definition"  
+        template="/WEB-INF/tiles/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />  
+        <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />  
+    </definition>  
+    
+    <definition name="welcome" extends="base.definition">  
+        <put-attribute name="title" value="Business Support System" />  
+        <put-attribute name="body" value="/WEB-INF/views/welcome.jsp" />  
+    </definition>  
+    
+    <definition name="login" extends="base.definition"> 
+        <put-attribute name="title" value="Login" />  
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />  
+    </definition> 
+    
+    <definition name="logout" extends="base.definition"> 
+        <put-attribute name="title" value="Login" />  
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />  
+    </definition> 
+    
+    <definition name="dashboard" extends="base.definition"> 
+        <put-attribute name="title" value="Dashboard" />  
+        <put-attribute name="body" value="/WEB-INF/views/dashboard.jsp" />  
+    </definition> 
+    
+    <definition name="userList" extends="base.definition"> 
+        <put-attribute name="title" value="User Management" />  
+        <put-attribute name="body" value="/WEB-INF/views/userList.jsp" />  
+    </definition> 
+    
+    <definition name="accessDenied" extends="base.definition"> 
+        <put-attribute name="title" value="Access Denined" />  
+        <put-attribute name="body" value="/WEB-INF/views/accessDenied.jsp" />  
+    </definition> 
+    
+    <definition name="sessionExpired" extends="base.definition"> 
+        <put-attribute name="title" value="Session Expired" />  
+        <put-attribute name="body" value="/WEB-INF/views/sessionExpired.jsp" />  
+    </definition> 
+    
+    <definition name="changePassword" extends="base.definition"> 
+        <put-attribute name="title" value="Change Password" />  
+        <put-attribute name="body" value="/WEB-INF/views/changePassword.jsp" />  
+    </definition> 
+    
+    <definition name="forgotPassword" extends="base.definition"> 
+        <put-attribute name="title" value="Forgot Password" />  
+        <put-attribute name="body" value="/WEB-INF/views/forgotPassword.jsp" />  
+    </definition> 
+    
+    <definition name="resetPassword" extends="base.definition"> 
+        <put-attribute name="title" value="Reset Password" />  
+        <put-attribute name="body" value="/WEB-INF/views/resetPassword.jsp" />  
+    </definition> 
+    
+    <definition name="exception" extends="base.definition"> 
+        <put-attribute name="title" value="Internal Error" />  
+        <put-attribute name="body" value="/WEB-INF/views/exception.jsp" />  
+    </definition> 
+    
+    <definition name="loggedInuserList" extends="base.definition"> 
+        <put-attribute name="title" value="Force Logout User" />  
+        <put-attribute name="body" value="/WEB-INF/views/loggedInuserList.jsp" />  
+    </definition> 
+    <definition name="userRoleList" extends="base.definition"> 
+        <put-attribute name="title" value="User Roles" />  
+        <put-attribute name="body" value="/WEB-INF/views/userRoleList.jsp" />  
+    </definition> 
+    <definition name="menuList" extends="base.definition"> 
+        <put-attribute name="title" value="Access Management" />  
+        <put-attribute name="body" value="/WEB-INF/views/menuList.jsp" />  
+    </definition> 
+    
+    
+    
+</tiles-definitions>  
