@@ -9,7 +9,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
 /**
- * Email configuration file, changed in alpha branch
+ * Email configuration file, changed in beta branch
  * @author korra
  *
  */
