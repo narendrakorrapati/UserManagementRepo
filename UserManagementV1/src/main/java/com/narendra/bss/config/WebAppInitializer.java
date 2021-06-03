@@ -7,7 +7,7 @@ import javax.servlet.ServletException;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import com.narendra.bss.config.security.ForceChangePasswordFilter;
-
+//Test for beta merging into master
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
 
 	@Override
